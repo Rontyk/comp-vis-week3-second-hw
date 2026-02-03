@@ -2,7 +2,7 @@ import cv2
 import os
 import numpy as np
 
-folder = "week3/second/images"
+folder = "./"
 
 FPS = 30
 TRANSITION_SECONDS = 1
@@ -27,3 +27,4 @@ for i in range(len(images) - 1):
         cv2.waitKey(int(1000 / FPS))
 
 cv2.destroyAllWindows()
+
